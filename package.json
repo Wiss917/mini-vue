@@ -1,0 +1,30 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "simple implementation of vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite dev",
+    "commit": "git add . && git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wiss917/mini-vue.git"
+  },
+  "keywords": [
+    "vuejs",
+    "observer"
+  ],
+  "author": "wisszeix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wiss917/mini-vue/issues"
+  },
+  "homepage": "https://github.com/Wiss917/mini-vue#readme",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3"
+  }
+}

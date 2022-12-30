@@ -1,23 +1,27 @@
-<!--
- * @Author: wuzixuan
- * @Date: 2021-02-02 17:57:57
- * @LastEditors: wuzixuan
- * @LastEditTime: 2021-02-02 18:03:08
--->
-<!--
- * @Author: wuzixuan
- * @Date: 2021-02-02 17:57:57
- * @LastEditors: wuzixuan
- * @LastEditTime: 2021-02-02 17:57:58
--->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <script src="./index.js"></script>
-</body>
+    <style>
+      #counter {
+        transition: background-color 1s, opacity 0.5s ease-in-out;
+        border: none;
+        padding: 8px;
+        border-radius: 4px;
+      }
+
+      #counter:hover {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" id="counter">counter</button>
+    <script src="./src/main.ts" type="module"></script>
+  </body>
 </html>
